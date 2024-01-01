@@ -44,16 +44,15 @@ extension UITextField{
         
         btnView.addTarget(self, action: #selector(btnTapped(sender:)), for: .touchUpInside)
         
-        
-        
     }
     @objc func btnTapped (sender : UIButton){
 //        print("btn tapped")
         if sender.imageView?.image == UIImage(systemName:"eye"){
             sender.setImage(UIImage(systemName: "eye.slash"), for: .normal)
-            
+            self.isSecureTextEntry = true
         }else{
             sender.setImage(UIImage(systemName: "eye"), for: .normal)
+            self.isSecureTextEntry = false
         }
     }
     
