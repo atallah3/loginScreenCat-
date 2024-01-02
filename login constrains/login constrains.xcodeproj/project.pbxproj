@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F73E57052B4436A800396B34 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73E57042B4436A800396B34 /* Extensions.swift */; };
 		F74F294A2B404122001306A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F29492B404122001306A7 /* AppDelegate.swift */; };
 		F74F294C2B404122001306A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F294B2B404122001306A7 /* SceneDelegate.swift */; };
 		F74F294E2B404122001306A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F294D2B404122001306A7 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F73E57042B4436A800396B34 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F74F29462B404122001306A7 /* login constrains.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "login constrains.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74F29492B404122001306A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F74F294B2B404122001306A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				F74F29492B404122001306A7 /* AppDelegate.swift */,
 				F74F294B2B404122001306A7 /* SceneDelegate.swift */,
 				F74F294D2B404122001306A7 /* ViewController.swift */,
+				F73E57042B4436A800396B34 /* Extensions.swift */,
 				F74F294F2B404122001306A7 /* Main.storyboard */,
 				F74F29522B404123001306A7 /* Assets.xcassets */,
 				F74F29542B404123001306A7 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				F74F294E2B404122001306A7 /* ViewController.swift in Sources */,
 				F74F294A2B404122001306A7 /* AppDelegate.swift in Sources */,
 				F74F294C2B404122001306A7 /* SceneDelegate.swift in Sources */,
+				F73E57052B4436A800396B34 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
