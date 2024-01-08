@@ -31,4 +31,11 @@ extension UITextField{
         }
     }
     
+    
+    func makeTextFieldWithShadow(){
+        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.shadowOpacity = 0.2
+        self.layer.shadowRadius = 10
+    }
+    
 }
